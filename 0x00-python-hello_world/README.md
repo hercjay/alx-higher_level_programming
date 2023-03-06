@@ -1,4 +1,4 @@
-# Python - Hello, World
+# Python - Hello, World for my learning in ALX - HERCJAY
 
 In this project, I began practicing using the interpreter, printing text
 and variables, and indexing and slicing strings in Python.
@@ -89,4 +89,4 @@ Prototypes for functions written in this project:
 
 * **13. ByteCode -> Python #1**
   * [102-magic_calculation.py](./102-magic_calculation.py): Python function matching exactly
-  a bytecode provided by Holberton School.
+  a bytecode provided
