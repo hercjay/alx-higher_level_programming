@@ -3,8 +3,13 @@
 
 def uppercase(s):
     for c in s:
-        if ord(c) >= ord('a') and ord(c) <= ord('z'):
-            print(chr(ord(c) - 32), end="")
+        # Check if character is lowercase
+        if ord('a') <= ord(c) <= ord('z'):
+            # Convert lowercase character to uppercase using ASCII code
+            # and print without new line
+            print(chr(ord(c) - ord('a') + ord('A')), end='')
         else:
-            print(c, end="")
+            # Print character without modification and without new line
+            print(c, end='')
+    # Print new line using second print function
     print()
