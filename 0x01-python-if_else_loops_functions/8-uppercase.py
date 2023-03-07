@@ -3,5 +3,8 @@
 
 def uppercase(s):
     for c in s:
-        print(chr(ord(c) - 32), end="")
+        if ord(c) >= ord('a') and ord(c) <= ord('z'):
+            print(chr(ord(c) - 32), end="")
+        else:
+            print(c, end="")
     print()
